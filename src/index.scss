@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-y: scroll;
+}
+
+li {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.spinner {
+  text-align: center;
+  margin-top: 100px;
+  .fa-spinner {
+     font-size: 60px;
+  }
+}
+
+.search {
+  margin-top: 30px;
+}
+
+.amount-per-page {
+  text-align: right;
+  margin-bottom: 20px;
+  p {
+    display: inline-block;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    li {
+      display: inline-block;
+      margin: 0 10px;
+      &.active {
+        color: #007bff;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.filter {
+  button {
+    margin-bottom: 20px;
+  }
+}
+
+.paginator {
+  display: flex;
+  justify-content: flex-end;
+}

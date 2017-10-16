@@ -1,0 +1,6 @@
+export const FETCH_POKEMONS = 'FETCH_POKEMONS'
+export const SET_FILTER = 'SET_FILTER'
+export const FETCH_FILTERS = 'FETCH_FILTERS'
+export const SET_SEARCH_NAME = 'SET_SEARCH_NAME'
+export const SET_AMOUNT_PER_PAGE = 'SET_AMOUNT_PER_PAGE'
+export const SET_PAGE = 'SET_PAGE'
