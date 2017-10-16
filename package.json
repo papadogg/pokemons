@@ -2,6 +2,9 @@
   "name": "react-boilerplate",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "8.6.0"
+  },
   "proxy": {
     "/auth/*": {
       "target": "http://localhost:5000"
